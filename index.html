@@ -170,7 +170,8 @@
               </div>
               <div class="feature-body">
                 <p>
-                  <span class="text-bold">Arry</span><br>EC Mall Arry<br><a href="#"
+                  <span class="text-bold">Arry</span><br>EC Mall Arry<br><a
+                    href="https://tobias-a-lee.github.io/new-arry/"
                     target="_blank">https://tobias-a-lee.github.io/new-arry/</a>
                 </p>
                 <p><span class="text-bold">担当：</span><br>Coding&nbsp;(Responsive)&nbsp;/&nbsp;Writing
@@ -199,8 +200,8 @@
               </div>
               <div class="feature-body">
                 <p>
-                  <span class="text-bold">JUNPOO</span><br>株式会社JUNPOO<br><a href="#"
-                    target="_blank">https://tobias-a-lee.github.io/junpoo</a>
+                  <span class="text-bold">JUNPOO</span><br>株式会社JUNPOO<br><a href="https://tobias-a-lee.github.io/junpoo"
+                    target="_blank">https://tobias-a-lee.github.io/junpoo/</a>
                 </p>
                 <p><span class="text-bold">担当：</span><br>Design&nbsp;/&nbsp;Coding&nbsp;(Responsive)&nbsp;/&nbsp;Writing
                 </p>
@@ -470,7 +471,17 @@
   <script src="js/photoswipe/photoswipe-setup.js"></script>
   <script src="js/lazysizes/lazysizes.min.js"></script>
   <script src="js/script.js"></script>
-
+  <!-- 苗字のfont -->
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'lfg4yan',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
   <!-- hambuger -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <link rel="stylesheet" href="./css/jquery.fs.naver.css">
@@ -487,17 +498,7 @@
     });
   </script>
 
-  <!-- 苗字のfont -->
-  <script>
-    (function (d) {
-      var config = {
-        kitId: 'lfg4yan',
-        scriptTimeout: 3000,
-        async: true
-      },
-        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
-    })(document);
-  </script>
+
 </body>
 
 </html>
